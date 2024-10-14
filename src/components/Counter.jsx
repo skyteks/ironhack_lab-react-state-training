@@ -7,9 +7,9 @@ function Counter() {
 
     return (
         <div style={{display: 'flex'}}>
-            <button onClick={() => increment()}>+</button>
-            <p>{count}</p>
             <button disabled={count == 0} onClick={() => decrement()}>-</button>
+            <p>{count}</p>
+            <button onClick={() => increment()}>+</button>
         </div>
     );
 }
