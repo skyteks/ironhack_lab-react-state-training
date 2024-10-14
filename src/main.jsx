@@ -6,6 +6,7 @@ import LikeButton from './components/LikeButton';
 import Counter from './components/Counter';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
+import DiscoButton from './components/DiscoButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -17,5 +18,6 @@ root.render(
         <Counter />
         <ClickablePicture />
         <Dice />
+        <DiscoButton />
     </React.StrictMode>
 );
