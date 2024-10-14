@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import LikeButton from './components/LikeButton';
+import Counter from './components/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -11,5 +12,6 @@ root.render(
         <App />
         <LikeButton />
         <LikeButton />
+        <Counter />
     </React.StrictMode>
 );
